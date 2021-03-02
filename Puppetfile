@@ -15,3 +15,6 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+
+# Adding this to get a self signed cert.  (Will be used in both MySQL and ActiveMQ.)
+# mod 'fnerdwq-ssl', '0.0.4'
